@@ -83,7 +83,7 @@ onBeforeUnmount(() => {
       </tr>
       </thead>
       <tbody class="bg-white dark:bg-slate-400">
-      <tr v-for="cat in catsDataComputed" :key="cat.id" class="cursor-pointer hover:bg-slate-600">
+      <tr v-for="cat in catsDataComputed" :key="cat.id" class="cursor-pointer hover:bg-slate-600 h-24">
         <td class="border-b border-slate-100 dark:border-slate-300 w-5/12 p-4 pl-8 dark:text-black">{{cat.id}}</td>
         <td class="border-b border-slate-100 dark:border-slate-300 w-5/12 p-4">
           <img class="w-12" :src="cat.url" alt="Cat">
